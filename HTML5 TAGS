@@ -1,1 +1,60 @@
 // HTML5 BASIC TAGS
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1><center><u>HTML5 TAGS<c></u></h1>
+<img src="C:\Users\Admin\Pictures\profile.jpg" width="1500" height="200">
+
+<article>
+  <header>
+    <h1>INTRODUCTION</h1>
+    <p>Here we are going to see the HTML5 tags.</p>
+    <p>some of the HTML5 tags outputs are here.</p>
+  </header>
+</article>
+<aside>
+<ul>
+<a href="#progress tag"><li>Progress tag</li></a>
+<li>Section tag</li>
+<li>Time tag</li>
+<li>Audio tag</li>
+<li>Video tag</li>
+<li>Article tag</li>
+<li>Aside tag</li>
+<li>Pre tag</li>
+<li>Header tag</li>
+<li>Footer tag</li>
+</ul>
+
+
+<h2>PROGRESS TAG</h2>
+<p>It is use to show the progress of the process.</p>
+<label for="file">This webpage completition progress:</label>
+<progress id="file" value="50" max="100"> 50% </progress>
+
+<h2>AUDIO TAG</h2>
+<p> This tag is used to add a audio file in the webpage.</p>
+<audio src="C:\Users\Admin\Downloads\audio.mp3" controls>
+</audio>
+
+<h2>VIDEO TAG</h2>
+<p> This tag is used to add a video file in the webpage.</p>
+<video src="C:\Users\Admin\Downloads\movie.mp4" width="320" height="240" controls>
+</video>
+<section>
+<p>Now we add the youtube video in this website using herf and iframe tags.</p>
+<a herf="https://youtu.be/b9PqKew7p5w?si=iapRplBLwO7jHgAV"></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b9PqKew7p5w?si=iapRplBLwO7jHgAV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</section>
+
+<h2>PRE TAG</h2>
+<pre>" Add content/Poem/coding within pre tag.
+           It will display as you structure 
+                    within pre tag."</pre>
+<h2>ADDRESS</h2>
+<p>NIRMAAN ORGANIZATION</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248749.54332593028!2d79.95905399322506!3d13.054019549044032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267455c010e21%3A0x2a6d68874fa13529!2sNirmaan%20Organization%20Chennai%20Center!5e0!3m2!1sen!2sin!4v1696322501181!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>
+
