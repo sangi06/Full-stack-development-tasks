@@ -1,0 +1,51 @@
+// CSS DISPLAY 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Desiging website using display element in css</title>
+    <style>
+        address1{
+            font-size:10px;
+            font-style: bold;
+            color: orange;
+           
+        }
+        div{
+            display: inline-block;
+        }
+ address2{
+            font-size:10px;
+            font-style: italic;
+            color: tomato;
+        }
+
+</style>
+</head>
+<body>
+    <div >
+        <div>
+         <address1>
+            <pre>
+            Flat No. 401, Jaihind Enclave, 
+            Madhapur, 
+            Hyderabad - 500081.
+            </pre>
+         </address1>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15545.837401802602!2d80.2239669!3d13.0700485!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267455c010e21%3A0x2a6d68874fa13529!2sNirmaan%20Organization%20Chennai%20Center!5e0!3m2!1sen!2sin!4v1696912850481!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
+         <address2>
+            <pre>
+            Flat No. 401, Jaihind Enclave, 
+            Madhapur, 
+            Hyderabad - 500081.
+            </pre>
+         </address2>
+        </div>
+
+    </div>
+</body>
+</html>
