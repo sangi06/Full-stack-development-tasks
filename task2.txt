@@ -1,0 +1,34 @@
+//CSS BASIC 
+
+<html>
+<head>
+<h1><center>css</center></h1>
+<style>
+ul{
+  background-color:dodgerBlue;
+  width:500px;
+}
+p{
+  background-color:rgb(23,78,10); 
+  color:#ffffff; 
+}
+ 
+</style>
+</head>
+<body>
+
+<!--here using the background color and width-->
+ <ul><li>BACKGROUND</li>
+<li>COLOR</li>
+<li>HEIGHT AND WIDTH</li>
+<li>COMMENTS</li>
+<li>LINKS</li>
+<li>TEXT</li>
+<li>FONT</li>
+<li>LIST</li>
+</ul>
+
+<P>here we used background , color ,comments ,height and width.</p>
+
+</body>
+</html>
