@@ -1,0 +1,82 @@
+// css postion and zindex
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+  Z-index:2;
+
+}
+div.static{
+         position:static;
+         border:3px solid tomato;
+         Z-index:2;
+   
+         }
+div.relative{
+         position:relative;
+         left: 30px;
+         border:3px dotted #345673;
+         Z-index:2;
+      
+         }
+div.fixed{
+         position:fixed;
+         height :20px;
+         bottom :0;
+         right :0;
+         border:3px dashed violet;
+         Z-index:2;
+         
+         }
+div.absolute{
+         position:absolute;
+         border:3px double lightgray;
+         Z-index:2;
+      
+         }
+img {
+  position: absolute;
+  size:0px;
+  z-index:-2;
+  }
+
+</style>
+<body>
+<div class="sticky">this is the example line for sticky.</div>
+<h1><center><b><u>CSS POSITIONS</u></b></center></h1>
+<img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg">
+
+<h2><b><u>POSITION:STICKY</b></u></h2>
+  <p>In this example, the sticky element sticks to the top of the page, when you reach its scroll position.</p>
+
+<h2><b><u>POSITION:STATIC</b></u></h2>
+<p>An element with position:static is not positioned in any special way; it is always positioned according to the normal flow of the page</p>
+<div class="static">this is the example line for static.</div>
+
+
+<h2><b><u>POSITION:RELATIVE</b></u></h2>
+<p>An element with position: relative; is positioned relative to its normal position:</p>
+<div class="relative">this is the example line for relative.</div>
+
+
+<h2><b><u>POSITION:FIXED</b></u></h2>
+<p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled:</p>
+<div class="fixed">this is the example line for fixed.</div>
+
+<h2><b><u>POSITION:ABSOLUTE</b></u></h2>
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor  like fixed.</p>
+<div class="absolute">this is the example line for absolute.</div>
+
+
+</head>
+</html>
+
+
